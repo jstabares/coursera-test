@@ -1,0 +1,83 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid black;
+  background-color: #999999;
+  padding: 30px 7px 7px 7px;
+  height: 150px;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-family: Helvetica;
+  overflow: auto;
+}
+
+div#container {
+  position: relative;
+}
+
+#chicken{
+  background-color: #D59898;
+}
+
+#beef{
+  background-color: #C14543;
+  color: white;	
+}
+
+#sushi{
+  background-color: #E5D198;	
+}
+
+#chicken, #beef, #sushi {
+	padding: 5px;
+	text-align: center;
+	height: 30px; 
+	width: 100px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop version only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/********** Tablet version only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+/********** Mobile version only **********/
+@media (max-width: 767px) {
+  #chicken, #beef, #sushi {
+  	margin-top: 0
+  }
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+  }
+}
