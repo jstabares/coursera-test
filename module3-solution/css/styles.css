@@ -1,0 +1,72 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #CC6A6A;
+  font-family: 'Patrick Hand', sans-serif, cursive;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #A40000;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1{
+  font-size: 1.3em;
+  color: whitesmoke;
+  font-weight: bold;
+  text-shadow: -4px 5px 2px #473F3C;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  padding-left: 15px;
+}
+
+.navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #FE6464;
+}
+#nav-list a {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  background: #CACACA;
+}
+
+#navbarNav{
+padding-left: 0;
+padding-right: 0;
+}
+
+button.navbar-toggler:focus {
+  background: white;
+  border: 1px solid #61122f;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+h2{
+ margin: 20px; 
+}
+
+section.row div{
+  background: whitesmoke;
+  color: black;
+  height: 1000px;
+  margin-bottom: 30px;
+  overflow: hidden;
+  text-align: justify;
+}
+
+
+.row > div > article {
+font-size: 1.1em;
+}
