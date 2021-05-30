@@ -77,3 +77,12 @@ section.row div{
 .row > div > article {
 font-size: 1.1em;
 }
+/* END MAIN CONTENT */
+
+/* MOBILE VIEW */
+@media (max-width: 767px) {
+  .row{
+    margin: 20px;
+  }
+}
+/* END MOBILE VIEW */
