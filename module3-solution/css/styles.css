@@ -35,6 +35,7 @@ body {
   color: whitesmoke;
   text-align: center;
   font-size: 1.2em;
+  border: .2px solid whitesmoke;
 }
 
 #nav-list a:hover {
@@ -49,6 +50,12 @@ padding-right: 0;
 button.navbar-toggler:focus {
   background: white;
   border: 1px solid #61122f;
+}
+
+.container-fluid > .navbar-collapse{
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: -8px;
 }
 /* END HEADER */
 
